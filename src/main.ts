@@ -1,7 +1,7 @@
 //------Main.js--------//
-//@ts-check
 
-import FormComponent from "./src/FormComponent/form.js";
+
+import FormComponent from "@FormComponents/form";
 
 //FormComponent
 //------

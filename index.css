@@ -1,6 +1,0 @@
-/* Import the CSS file for the form */
-
-@import "/src/layout/normalize.css";
-@import "/src/layout/styles.css";
-@import "/src/FormComponent/form.css";
-@import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
