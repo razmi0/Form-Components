@@ -12,7 +12,6 @@
     "vite": "^4.2.1"
   },
   "devDependencies": {
-    "bootstrap": "^5.2.3",
     "typescript": "^5.0.4"
   }
 }
