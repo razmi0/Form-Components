@@ -23,8 +23,8 @@ const InputTextComponent = class InputText {
 
   #updateFormHTML = async () => {
 
-    const inputStr = await getHTMLFile("./src/TextComponent/input.html");
-    const formStr = await getHTMLFile("./src/FormComponent/form.html");
+    const inputStr = await getHTMLFile("./src/components/TextComponent/input.html");
+    const formStr = await getHTMLFile("./src/components/FormComponent/form.html");
     return formStr.replace(this.regexInput, inputStr);
   };
 

@@ -4,8 +4,9 @@ declare const InputTextComponent: {
         updatedFormHTML: Promise<string>;
         element: HTMLElement | string;
         newFormHTML: string;
-        "__#1@#updateFormHTML": () => Promise<string>;
-        "__#1@#render"(): void;
+        "__#24735@#updateFormHTML": () => Promise<string>;
+        "__#24735@#render"(): void;
     };
 };
 export default InputTextComponent;
+//# sourceMappingURL=input.d.ts.map

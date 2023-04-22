@@ -3,17 +3,18 @@
     "outDir": "dist",
     "baseUrl" : "./",
     "paths": {
-      "@src/*": ["src/*"],
+      "@/*": ["src/*"],
       "@FormComponents/*": ["src/components/FormComponent/*"],
       "@TextComponents/*": ["src/components/TextComponent/*"],
       "@Utils/*": ["src/utils/*"]
     },
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "ES6",
     "noEmitOnError": false,
     "strict": true,
     "moduleResolution": "node",
     "noUncheckedIndexedAccess": true,
+    "declarationMap": true,
     "declaration": true,
     "declarationDir": "src/types"
   },

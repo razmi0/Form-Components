@@ -6,3 +6,4 @@ declare const FormComponent: {
     };
 };
 export default FormComponent;
+//# sourceMappingURL=form.d.ts.map

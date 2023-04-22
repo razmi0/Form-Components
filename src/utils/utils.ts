@@ -1,3 +1,4 @@
+//@filename : utils.ts
 
 /**
  *
@@ -6,12 +7,12 @@
  */
 
 function noMiddleware(html : string) {
-  if (import.meta.resolve("../node_modules/vite/client")) {
     const subString = '<script type="module" src="/@vite/client"></script>';
     return html.replace(subString, "");
-  }
-  return html;
 }
+
+
+
 
 /**
  * @param {string} path
